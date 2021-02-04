@@ -405,7 +405,6 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-
 }
 .four-col-sec{
   width: 100%;
@@ -431,6 +430,106 @@ body {
   text-align: center;
   margin: 16px;
   padding: 35px;
+}
+.form-section{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #f28811;
+  padding: 45px;
+}
+.form-section-text h3{
+  text-align: center;
+  font-size: 30px;
+}
+.form-holder{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.form-left-img{
+  width: 40%;
+  text-align: right;
+  padding-right: 19px;
+}
+.form-div{
+  width: 59%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.fname{
+  width: 48%;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  margin: 0 6px 15px 0;
+}
+.form-left-img img{
+  width: 68%;
+  height: auto;
+}
+.demo-button-form{
+  background:  #e11b24;
+  width: 29%;
+  height: 41px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+  font-size: 13px;
+}
+.form-text{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.footer-section{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color:#231f20;
+  padding: 35px;
+}
+.footer-logo-col{
+  width: 24%;
+  line-height: 26px;
+}
+.footer-logo-col h3{
+  font-size: 22px;
+  color:#fefefe;
+}
+.footer-logo-col p{
+  font-size: 13px;
+  color: #dddddd;
+}
+.footer-holder{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footer-logo-col img{
+  max-width: 34%;
+}
+.footer-logo-col a{
+  color: #dddddd;
+  text-decoration: none;
+}
+.footer-logo-col address{
+  color: white;
+  text-decoration: none;
+}
+.social-icons i{
+  color: white;
 }
 
 @media only screen and (min-width: 992px){
@@ -535,5 +634,20 @@ body {
   }
   .features-section{
     background-color: #f3f4f8;
+  }
+  .form-left-img, .form-left-img img{
+    width: 100%;
+  }
+  .form-left-img img{
+    padding-bottom: 10px;
+  }
+  .form-div{
+    width: 100%;
+  }
+  .fname{
+    width: 100%;
+  }
+  .demo-button-form{
+    width: 60%;
   }
 }
